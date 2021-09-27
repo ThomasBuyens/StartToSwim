@@ -5,19 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="Inscription.css">
-    <title>Inschrijving</title>
+    <title>Registration</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+    <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
+    <header>
+        <nav>
+            <div id="mobile-nav">
+                <div id="mobile-nav-top">
+                    <img src="../icon/logo-small.png" alt="logo">
+                    <p>Start to swim</p>
+                    <img id="mobile-img" src="../icon/logo-small.png" alt="logo">
+                </div>
+                <img id="menuOpener" src="../icon/dropdown.png" alt="drop">
+                <div class="dropdown">
+                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        EN
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="inschrijving-NL.html">NL</a>
+                        <a class="dropdown-item" href="Inscription-FR.html">FR</a>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="../index.html#lessons">Lessons</a></li>
+                    <li><a href="../index.html#instructors">Instructors</a></li>
+                    <li><a href="../index.html#package">Package</a></li>
+                    <li><a href="#">Registration</a></li>
+                </ul>
+                <button onclick="window.location.href='../index.html#contact';">Contact us</button>
+            </div>
+        </nav>
+    </header>
     <main>
+        
         <div class="shade"></div>
         <img id="topBackground" src="../pictures/Bewerkte-Foto.JPG" alt="">
         <section id="header">
             <div class="center">
                 <h1>How to register?</h1>
-                <h2>Easy! Here's how to proceed step by step.</h2>
+                <h2>Easy! Six steps:</h2>
             </div>
         </section>
         <section id="bullets">
@@ -72,6 +111,18 @@
             </ul>
         </section>
     </main>
+    <script src="../script.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
