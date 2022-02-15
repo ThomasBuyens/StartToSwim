@@ -218,11 +218,10 @@ header button {
   color: #000;
 }
 #kids ul {
-  margin: 0%;
-  padding: 0;
+
 }
 #kids li {
-  
+
 }
 #bullets {
     display: flex;
@@ -537,6 +536,10 @@ iframe {
     max-width: 90%;
     text-align: justify;
 }
+#kids > * {
+  max-width: 90%;
+  text-align: justify;
+}
   #bullets ul {
     display: flex;
     flex-wrap: wrap;
@@ -651,4 +654,5 @@ iframe {
     position: relative;
     top: 1em;
   }
+
 }
