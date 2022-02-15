@@ -210,14 +210,19 @@ header button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #000;
 }
 #kids > * {
   max-width: 40%;
   text-align: justify;
+  color: #000;
 }
 #kids ul {
   margin: 0%;
   padding: 0;
+}
+#kids li {
+  
 }
 #bullets {
     display: flex;
